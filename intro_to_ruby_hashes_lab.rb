@@ -21,8 +21,8 @@ end
 def monopoly_with_third_tier
     monopoly = {
       railroads: {
-      :rent_in_dollars => 4
-      
+      rent_in_dollars: { 
+          }
         }
       }
   # When you start writing the implementation for this method, copy the Hash
