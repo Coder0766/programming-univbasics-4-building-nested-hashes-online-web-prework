@@ -22,9 +22,25 @@ def monopoly_with_third_tier
     monopoly = {
       railroads: {
       :rent_in_dollars => 4
-      :rent_in_dollars => [4]
+      :rent_in_dollars = {
+        
+      }
       }
     } 
+    
+    flatiron_school = {
+  instructors: ["Avi", "Jeff", "Rose"], 
+  dev_team: ["Jonas", "Logan", "Amanda", "Seiji", "Kate", "Spencer"],
+  students: ["Sarah", "you", "John", "David"]
+}
+    
+    
+    
+    
+    
+    
+    
+    
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
