@@ -1,7 +1,6 @@
 def base_hash 
-    base_hash{[:key][count] = 1}
-    return base_hash
-     # Remember implicit return! We're returning this new Hash _without_ the
+    monopoly = {[:key][count] = 1}
+   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
 end
 
