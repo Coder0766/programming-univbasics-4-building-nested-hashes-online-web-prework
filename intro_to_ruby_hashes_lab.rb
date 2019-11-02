@@ -7,7 +7,7 @@ end
 def monopoly_with_second_tier
     monopoly = {
       railroads: {
-      pieces, 4
+      :pieces => 4
       }
     } 
   # Remember implicit return! We're returning this new Hash _without_ the
