@@ -22,8 +22,8 @@ def monopoly_with_third_tier
   monopoly = {
       railroads: {
       names:{
-      :reading_railroad => ({})
-      :pennsylvania_railroad
+      :reading_railroad =
+      :pennsylvania_railroad> ({})
       }
       rent_in_dollars: {
       :one_piece_owned => 25, 
