@@ -20,7 +20,8 @@ end
 
 def monopoly_with_third_tier
     monopoly = {
-      rent_in_dollars => 4
+      railroads = {
+      :rent_in_dollars => 4
           }
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
